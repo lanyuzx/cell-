@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5C542AA1D7E1EEC0086195B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C542A91D7E1EEC0086195B /* main.m */; };
+		B5C542AD1D7E1EEC0086195B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C542AC1D7E1EEC0086195B /* AppDelegate.m */; };
+		B5C542B01D7E1EEC0086195B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C542AF1D7E1EEC0086195B /* ViewController.m */; };
+		B5C542B31D7E1EEC0086195B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C542B11D7E1EEC0086195B /* Main.storyboard */; };
+		B5C542B51D7E1EEC0086195B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C542B41D7E1EEC0086195B /* Assets.xcassets */; };
+		B5C542B81D7E1EEC0086195B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C542B61D7E1EEC0086195B /* LaunchScreen.storyboard */; };
+		B5C542C31D7E1EEC0086195B /* cell________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C542C21D7E1EEC0086195B /* cell________Tests.m */; };
+		B5C542CE1D7E1EEC0086195B /* cell________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C542CD1D7E1EEC0086195B /* cell________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5C542BF1D7E1EEC0086195B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5C5429D1D7E1EEB0086195B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5C542A41D7E1EEB0086195B;
+			remoteInfo = "cell行高计算折叠效果";
+		};
+		B5C542CA1D7E1EEC0086195B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5C5429D1D7E1EEB0086195B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5C542A41D7E1EEB0086195B;
+			remoteInfo = "cell行高计算折叠效果";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5C542A51D7E1EEB0086195B /* cell行高计算折叠效果.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cell行高计算折叠效果.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C542A91D7E1EEC0086195B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5C542AB1D7E1EEC0086195B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B5C542AC1D7E1EEC0086195B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B5C542AE1D7E1EEC0086195B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B5C542AF1D7E1EEC0086195B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B5C542B21D7E1EEC0086195B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5C542B41D7E1EEC0086195B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5C542B71D7E1EEC0086195B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5C542B91D7E1EEC0086195B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5C542BE1D7E1EEC0086195B /* cell行高计算折叠效果Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cell行高计算折叠效果Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C542C21D7E1EEC0086195B /* cell________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "cell________Tests.m"; sourceTree = "<group>"; };
+		B5C542C41D7E1EEC0086195B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5C542C91D7E1EEC0086195B /* cell行高计算折叠效果UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cell行高计算折叠效果UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C542CD1D7E1EEC0086195B /* cell________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "cell________UITests.m"; sourceTree = "<group>"; };
+		B5C542CF1D7E1EEC0086195B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5C542A21D7E1EEB0086195B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C542BB1D7E1EEC0086195B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C542C61D7E1EEC0086195B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5C5429C1D7E1EEB0086195B = {
+			isa = PBXGroup;
+			children = (
+				B5C542A71D7E1EEB0086195B /* cell行高计算折叠效果 */,
+				B5C542C11D7E1EEC0086195B /* cell行高计算折叠效果Tests */,
+				B5C542CC1D7E1EEC0086195B /* cell行高计算折叠效果UITests */,
+				B5C542A61D7E1EEB0086195B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5C542A61D7E1EEB0086195B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5C542A51D7E1EEB0086195B /* cell行高计算折叠效果.app */,
+				B5C542BE1D7E1EEC0086195B /* cell行高计算折叠效果Tests.xctest */,
+				B5C542C91D7E1EEC0086195B /* cell行高计算折叠效果UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5C542A71D7E1EEB0086195B /* cell行高计算折叠效果 */ = {
+			isa = PBXGroup;
+			children = (
+				B5C542AB1D7E1EEC0086195B /* AppDelegate.h */,
+				B5C542AC1D7E1EEC0086195B /* AppDelegate.m */,
+				B5C542AE1D7E1EEC0086195B /* ViewController.h */,
+				B5C542AF1D7E1EEC0086195B /* ViewController.m */,
+				B5C542B11D7E1EEC0086195B /* Main.storyboard */,
+				B5C542B41D7E1EEC0086195B /* Assets.xcassets */,
+				B5C542B61D7E1EEC0086195B /* LaunchScreen.storyboard */,
+				B5C542B91D7E1EEC0086195B /* Info.plist */,
+				B5C542A81D7E1EEC0086195B /* Supporting Files */,
+			);
+			path = "cell行高计算折叠效果";
+			sourceTree = "<group>";
+		};
+		B5C542A81D7E1EEC0086195B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5C542A91D7E1EEC0086195B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5C542C11D7E1EEC0086195B /* cell行高计算折叠效果Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B5C542C21D7E1EEC0086195B /* cell________Tests.m */,
+				B5C542C41D7E1EEC0086195B /* Info.plist */,
+			);
+			path = "cell行高计算折叠效果Tests";
+			sourceTree = "<group>";
+		};
+		B5C542CC1D7E1EEC0086195B /* cell行高计算折叠效果UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5C542CD1D7E1EEC0086195B /* cell________UITests.m */,
+				B5C542CF1D7E1EEC0086195B /* Info.plist */,
+			);
+			path = "cell行高计算折叠效果UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5C542A41D7E1EEB0086195B /* cell行高计算折叠效果 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5C542D21D7E1EEC0086195B /* Build configuration list for PBXNativeTarget "cell行高计算折叠效果" */;
+			buildPhases = (
+				B5C542A11D7E1EEB0086195B /* Sources */,
+				B5C542A21D7E1EEB0086195B /* Frameworks */,
+				B5C542A31D7E1EEB0086195B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cell行高计算折叠效果";
+			productName = "cell行高计算折叠效果";
+			productReference = B5C542A51D7E1EEB0086195B /* cell行高计算折叠效果.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5C542BD1D7E1EEC0086195B /* cell行高计算折叠效果Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5C542D51D7E1EEC0086195B /* Build configuration list for PBXNativeTarget "cell行高计算折叠效果Tests" */;
+			buildPhases = (
+				B5C542BA1D7E1EEC0086195B /* Sources */,
+				B5C542BB1D7E1EEC0086195B /* Frameworks */,
+				B5C542BC1D7E1EEC0086195B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5C542C01D7E1EEC0086195B /* PBXTargetDependency */,
+			);
+			name = "cell行高计算折叠效果Tests";
+			productName = "cell行高计算折叠效果Tests";
+			productReference = B5C542BE1D7E1EEC0086195B /* cell行高计算折叠效果Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5C542C81D7E1EEC0086195B /* cell行高计算折叠效果UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5C542D81D7E1EEC0086195B /* Build configuration list for PBXNativeTarget "cell行高计算折叠效果UITests" */;
+			buildPhases = (
+				B5C542C51D7E1EEC0086195B /* Sources */,
+				B5C542C61D7E1EEC0086195B /* Frameworks */,
+				B5C542C71D7E1EEC0086195B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5C542CB1D7E1EEC0086195B /* PBXTargetDependency */,
+			);
+			name = "cell行高计算折叠效果UITests";
+			productName = "cell行高计算折叠效果UITests";
+			productReference = B5C542C91D7E1EEC0086195B /* cell行高计算折叠效果UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5C5429D1D7E1EEB0086195B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "周尊贤";
+				TargetAttributes = {
+					B5C542A41D7E1EEB0086195B = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4MU5292B6H;
+					};
+					B5C542BD1D7E1EEC0086195B = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4MU5292B6H;
+						TestTargetID = B5C542A41D7E1EEB0086195B;
+					};
+					B5C542C81D7E1EEC0086195B = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4MU5292B6H;
+						TestTargetID = B5C542A41D7E1EEB0086195B;
+					};
+				};
+			};
+			buildConfigurationList = B5C542A01D7E1EEB0086195B /* Build configuration list for PBXProject "cell行高计算折叠效果" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5C5429C1D7E1EEB0086195B;
+			productRefGroup = B5C542A61D7E1EEB0086195B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5C542A41D7E1EEB0086195B /* cell行高计算折叠效果 */,
+				B5C542BD1D7E1EEC0086195B /* cell行高计算折叠效果Tests */,
+				B5C542C81D7E1EEC0086195B /* cell行高计算折叠效果UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5C542A31D7E1EEB0086195B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C542B81D7E1EEC0086195B /* LaunchScreen.storyboard in Resources */,
+				B5C542B51D7E1EEC0086195B /* Assets.xcassets in Resources */,
+				B5C542B31D7E1EEC0086195B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C542BC1D7E1EEC0086195B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C542C71D7E1EEC0086195B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5C542A11D7E1EEB0086195B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C542B01D7E1EEC0086195B /* ViewController.m in Sources */,
+				B5C542AD1D7E1EEC0086195B /* AppDelegate.m in Sources */,
+				B5C542AA1D7E1EEC0086195B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C542BA1D7E1EEC0086195B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C542C31D7E1EEC0086195B /* cell________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C542C51D7E1EEC0086195B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C542CE1D7E1EEC0086195B /* cell________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5C542C01D7E1EEC0086195B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5C542A41D7E1EEB0086195B /* cell行高计算折叠效果 */;
+			targetProxy = B5C542BF1D7E1EEC0086195B /* PBXContainerItemProxy */;
+		};
+		B5C542CB1D7E1EEC0086195B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5C542A41D7E1EEB0086195B /* cell行高计算折叠效果 */;
+			targetProxy = B5C542CA1D7E1EEC0086195B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5C542B11D7E1EEC0086195B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5C542B21D7E1EEC0086195B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5C542B61D7E1EEC0086195B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5C542B71D7E1EEC0086195B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5C542D01D7E1EEC0086195B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5C542D11D7E1EEC0086195B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5C542D31D7E1EEC0086195B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "cell行高计算折叠效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LLBaidu.com.cell--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B5C542D41D7E1EEC0086195B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "cell行高计算折叠效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LLBaidu.com.cell--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B5C542D61D7E1EEC0086195B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "cell行高计算折叠效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LLBaidu.com.cell--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cell行高计算折叠效果.app/cell行高计算折叠效果";
+			};
+			name = Debug;
+		};
+		B5C542D71D7E1EEC0086195B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "cell行高计算折叠效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LLBaidu.com.cell--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cell行高计算折叠效果.app/cell行高计算折叠效果";
+			};
+			name = Release;
+		};
+		B5C542D91D7E1EEC0086195B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "cell行高计算折叠效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LLBaidu.com.cell--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "cell行高计算折叠效果";
+			};
+			name = Debug;
+		};
+		B5C542DA1D7E1EEC0086195B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "cell行高计算折叠效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LLBaidu.com.cell--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "cell行高计算折叠效果";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5C542A01D7E1EEB0086195B /* Build configuration list for PBXProject "cell行高计算折叠效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5C542D01D7E1EEC0086195B /* Debug */,
+				B5C542D11D7E1EEC0086195B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5C542D21D7E1EEC0086195B /* Build configuration list for PBXNativeTarget "cell行高计算折叠效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5C542D31D7E1EEC0086195B /* Debug */,
+				B5C542D41D7E1EEC0086195B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5C542D51D7E1EEC0086195B /* Build configuration list for PBXNativeTarget "cell行高计算折叠效果Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5C542D61D7E1EEC0086195B /* Debug */,
+				B5C542D71D7E1EEC0086195B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5C542D81D7E1EEC0086195B /* Build configuration list for PBXNativeTarget "cell行高计算折叠效果UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5C542D91D7E1EEC0086195B /* Debug */,
+				B5C542DA1D7E1EEC0086195B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5C5429D1D7E1EEB0086195B /* Project object */;
+}
